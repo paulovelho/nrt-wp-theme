@@ -1,0 +1,43 @@
+.main-post-call {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.more-post-call .question {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1rem;
+	text-align: center;
+}
+.more-post-call .date {
+	text-align: right;
+	margin-top: 20px;
+	font-size: 0.5rem !important;
+}
+
+.more-posts img {
+	margin-top: 10px;
+}
+.other-titles {
+	margin-top: 50px;
+}
+.other-titles h2 {
+	position: relative;
+}
+.other-titles h2 a {
+	position: absolute;
+	bottom: 0;
+}
+
+.line-2 {
+	margin: 5px 20px;
+}
+
+.random-posts h3 {
+	margin-bottom: 40px;
+}
+
+.wp-search {
+	margin: 40px;
+}

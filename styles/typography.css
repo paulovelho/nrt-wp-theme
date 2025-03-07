@@ -1,0 +1,15 @@
+.alignright {
+	float: none !important;
+}
+
+.alignleft {
+	float: none !important;
+}
+
+.single-content h2.wp-block-post-title {
+	color: #FFF;
+}
+
+.single-content p {
+	text-align: justify;
+}
