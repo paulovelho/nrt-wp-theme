@@ -1,0 +1,74 @@
+.single-header {
+	width: 100%;
+	height: 50px;
+	display: block;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+	position: fixed;
+	z-index: 99999;
+	background-color: #FFF;
+	top: 0;
+}
+
+.admin-bar .single-header {
+	top: 32px;
+}
+
+.single-content {
+	margin-top: 50px;
+}
+.single-content h2.wp-block-post-title {
+	color: #FFF;
+}
+.single-post-content h2 {
+	margin-top: 30px;
+	font-family: Merriweather, serif;
+}
+.single-post-content img {
+	max-width: 100%;
+}
+.single-post-content p {
+	text-align: justify;
+	margin-top: 20px;
+}
+.single-post-content p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.wp-block-cover {
+	min-height: 800px;
+	height: 100%;
+	width: 100%;
+}
+
+.accordion {
+	margin: 50px 0 ;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+	border: 1px solid #ddd;
+	padding: 0;
+}
+
+.accordion-title {
+	border-bottom: 1px solid #ddd;
+	margin: 0;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.accordion-content {
+	border-bottom: 1px solid #ddd;
+	padding: 20px;
+}
+
+.wp-block-post-navigation-link span {
+	display: block;
+}
+.post-navigation-link-previous {
+	float: left;
+}
+.post-navigation-link-next {
+	text-align: right;
+	float: right;
+}
+
+

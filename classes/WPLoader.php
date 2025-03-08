@@ -20,6 +20,7 @@ class WPLoader {
 		wp_enqueue_style($this->cssHandle . 'general-styles', $dir . 'styles.css');
 		wp_enqueue_style($this->cssHandle . 'typography', $dir . 'typography.css');
 		wp_enqueue_style($this->cssHandle . 'home-styles', $dir . 'home.css');
+		wp_enqueue_style($this->cssHandle . 'singel-styles', $dir . 'single.css');
 	}
 
 	public function addJavascript(string $handle, string $file) {

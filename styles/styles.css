@@ -1,0 +1,40 @@
+.wp-block-site-title {
+	text-transform: none !important;
+	font-family: "Merriweather", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings: "width" 100;
+	font-size: 42px;
+}
+
+.search-rs {
+	margin: 10px 50px;
+}
+
+.search-rs-post {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.search-rs-post .summary {
+	width: 70%;
+}
+
+.paulovelho-credits {
+	margin-top: 30px;
+}
+.paulovelho-credits img {
+	width: 120px;
+}
+.paulovelho-credits a.footer-credits {
+	color: #CCC;
+	margin-top: 0px;
+	display: block;
+}
+.footer-column-right p {
+	float: right;
+	margin-top: 50px;
+
+}
