@@ -20,7 +20,7 @@
 			<div class="paulovelho-credits">
 				Produção:<br>
 				<img src="<?= esc_url(get_stylesheet_directory_uri() . '/images/zebras_white.png') ?>" class="footer-zebras">
-				<a href="https://paulovelho.com.br" class="footer-credits">Paulo Velho</a>
+				<a href="https://paulovelho.com.br" class="footer-credits">paulovelho.com</a>
 			</div>
 		</div>
 		<!-- /wp:column -->

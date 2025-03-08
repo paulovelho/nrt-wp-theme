@@ -24,15 +24,24 @@
 					<div class="wp-block-group">
 
 						<!-- wp:spacer -->
-						<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+						<div style="height:300px" aria-hidden="true" class="wp-block-spacer"></div>
 						<!-- /wp:spacer -->
 
 						<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50"}}},"layout":{"type":"constrained","wideSize":"1100px"}} -->
 						<div class="wp-block-group single-title"
 							style="padding-right:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
-							<!-- wp:post-title {"style":{"typography":{"fontSize":"4.6rem"}}, "class": "single-title"} /-->
+							<div class="post-title">
+								<!-- wp:post-title {"style":{"typography":{"fontSize":"4.6rem"}}, "class": "single-title"} /-->
+							</div>
+							<div class="post-title-sub">
+								<div class="excerpt">
+									<!-- wp:post-excerpt {"isLink":false} /-->
+								</div>
+								<div class="meta">
+									<!-- wp:template-part {"slug":"post-meta","area":"uncategorized"} /-->
+								</div>
+							</div>
 
-							<!-- wp:template-part {"slug":"post-meta","area":"uncategorized"} /-->
 						</div>
 						<!-- /wp:group -->
 
