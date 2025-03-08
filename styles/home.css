@@ -39,5 +39,6 @@
 }
 
 .wp-search {
-	margin: 40px;
+	margin: 40px auto;
+	max-width: 1400px;
 }
