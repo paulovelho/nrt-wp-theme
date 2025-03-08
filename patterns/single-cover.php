@@ -38,7 +38,12 @@
 									<!-- wp:post-excerpt {"isLink":false} /-->
 								</div>
 								<div class="meta">
-									<!-- wp:template-part {"slug":"post-meta","area":"uncategorized"} /-->
+									<div class="author">
+										<!-- wp:post-author-name {"isLink":false} /-->
+									</div>
+									<div class="date">
+										<!-- wp:post-date {"format": "d / M / Y"} /-->
+									</div>
 								</div>
 							</div>
 

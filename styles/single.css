@@ -37,7 +37,6 @@
 	margin-bottom: 30px;
 }
 
-
 .wp-block-cover {
 	min-height: 800px;
 	height: 100%;
@@ -62,10 +61,23 @@
 	max-width: 70%;
 }
 .post-title-sub .meta {
+	color: #FFF;
 	font-weight: 900;
+	display: flex;
+	flex-direction: column;
+	text-align: right;
 }
-.post-title-sub .meta .wp-block-post-author-name {
-	font-size: 16px!important;
+.post-title-sub .meta .author {
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 14px!important;
+}
+.post-title-sub .meta .wp-block-post-date {
+	color: #FFF !important;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px!important;
 }
 
 .accordion {
